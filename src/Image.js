@@ -1,11 +1,13 @@
 import React from "react";
 
 const Image = (props) => {
+const {source, copyright} = props;
+
     return <div>
         <div>
-            <img/>
+            <img src = {source} alt = "bray-falls"/>
         </div>
-        <h6>Copyright: </h6>
+        <h6>{copyright}</h6>
     </div>
 };
 

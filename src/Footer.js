@@ -1,9 +1,11 @@
 import React from "react";
 
 const Footer = (props) => {
+    const {service, media} = props;
+
     return <footer>
-        <p>Service version</p>
-        <p>Media Type</p>
+        <p>{service}</p>
+        <p>{media}</p>
     </footer>
 };
 

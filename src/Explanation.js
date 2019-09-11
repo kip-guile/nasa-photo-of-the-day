@@ -1,8 +1,10 @@
 import React from "react";
 
 const Explanation = (props) => {
+  const {explanation} = props;
+
     return <div>
-        <p>Explanation goes here</p>
+        <p>{explanation}</p>
     </div>
 };
 
