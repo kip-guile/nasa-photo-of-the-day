@@ -27,8 +27,10 @@ function App() {
   return (
     <div className="App">
       <Header title = {nasaDataState.title} date = {nasaDataState.date}/>
-      <Image source = {nasaDataState.url} copyright = {nasaDataState.copyright}/>
-      <Explanation explanation = {nasaDataState.explanation}/>
+      <div className = "mid">
+        <Image source = {nasaDataState.url} copyright = {nasaDataState.copyright}/>
+        <Explanation explanation = {nasaDataState.explanation}/>
+      </div>
       <Footer service = {nasaDataState.service_version} media = {nasaDataState.media_type}/>
     </div>
   );

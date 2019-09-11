@@ -3,7 +3,7 @@ import React from "react";
 const Explanation = (props) => {
   const {explanation} = props;
 
-    return <div>
+    return <div className = "explanation">
         <p>{explanation}</p>
     </div>
 };

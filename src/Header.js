@@ -3,9 +3,9 @@ import React from "react";
 const Header = (props) => {
     const {title, date} = props;
 
-    return <div>
+    return <div className = "header">
         <h2>{title}</h2>
-        <h6>{date}</h6>
+        <p>{date}</p>
     </div>
 };
 
