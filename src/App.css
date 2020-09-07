@@ -1,5 +1,53 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.header{
+  background-color: aquamarine;
+  border: 1em solid whitesmoke;
+}
+
+.header h2{
+  font-family: fantasy;
+  font-size: 3em;
+}
+
+img {
+  width: 240px;
+  height: 300px;
+  border: 0.5em solid whitesmoke;
+}
+
+.header h6{
+  font-family: fantasy;
+}
+
+.mid{
+  display: flex;
+  border: 0.5em solid aquamarine;
+}
+
+.explanation {
+  border: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1em;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: aquamarine;
+  border: 1em solid whitesmoke;
 }
 
 .App-logo {
@@ -18,6 +66,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+
 
 .App-link {
   color: #61dafb;
